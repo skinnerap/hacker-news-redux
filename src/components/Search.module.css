@@ -1,0 +1,77 @@
+.TextInput {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 500px;
+}
+
+.SearchType {
+    padding: 10px;
+    font-size: 110%;
+}
+
+.SearchTitle {
+    font-weight: 600;
+    font-size: 110%;
+    text-transform: uppercase;
+}
+
+.SearchSubmit {
+    background-color: rgb(25, 134, 128);
+    border: 2px solid transparent;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.SearchSubmit:hover {
+    background-color: transparent;
+    border: 2px solid rgb(25, 134, 128);
+    color: rgb(25, 134, 128);
+}
+
+.SearchResult {
+    padding: 10px;
+}
+
+.SearchResult a {
+    color: rgb(25, 134, 128);
+    font-size: 115%;
+    font-weight: 600;
+    text-decoration: none;
+    transition: .4s;
+}
+
+.SearchResult a:hover {
+    color: rgb(8, 102, 97);
+}
+
+.SearchTerms {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    font-size: 125%;
+    font-weight: 600;
+    text-transform: lowercase;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.SearchTerm {
+    color: rgb(8, 102, 97);
+    border: 2px solid rgb(8, 102, 97);
+    padding: 5px 10px;
+    margin: 5px;
+    width: fit-content;
+}
+
+.SearchTerm:hover {
+    color: rgb(156, 22, 22);
+    border: 2px solid rgb(156, 22, 22);
+}
+
+.Center {
+    align-self: center;
+}

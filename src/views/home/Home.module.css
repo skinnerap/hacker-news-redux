@@ -1,0 +1,23 @@
+.Content {
+    display: flex;
+    flex-flow: column;
+}
+
+.Content h1, .Content span, .SearchType, .TextInput {
+    align-self: center;
+}
+
+.SearchBox {
+    display: flex;
+    flex-flow: row;
+}
+
+.MainSearchBox {
+    width: 70%;
+    display: flex;
+    flex-flow: column;
+}
+
+.SearchTermBox {
+    width: 30%;
+}
